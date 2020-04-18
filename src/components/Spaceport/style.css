@@ -1,0 +1,19 @@
+.section-falcon {
+    grid-column: center-start / center-end;
+    padding: 10vw 0;
+
+    display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.falcon--description {
+    grid-column: 1 / 2;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.falcon--description__text {
+    color: var(--color-gray-dark-3);
+    font-size: 3vw;
+}

@@ -16,7 +16,7 @@
 }
 
 .main {
-	grid-column: full-start / full-end;
+    grid-column: full-start / full-end;
 	background-image: url(./images/bg.jpg);
 	background-position: center;
 	background-size: cover;

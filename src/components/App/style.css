@@ -1,3 +1,18 @@
+:root {
+    --color-gray-light: #6d6d6d;
+
+    --color-gray-dark-2: #353535;
+    --color-gray-dark-3: #1e1e1e;
+
+    --color-white: #fff;
+    --color-blue: #2196F3;
+    --color-red: #fb3838;
+    --color-red-light: #f74c4c;
+
+    --color-book-1: #ffdf8f;
+    --color-book-2: #8cbae0;
+    --color-book-3: #dc4954;
+}
 
 *,
 *::after,
