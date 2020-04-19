@@ -45,7 +45,6 @@
     border: none;
     border-radius: 50%;
     background-color: var(--color-red);
-    /* // box-shadow: 0 10px 80px 0px #6f6f6f; */
     box-shadow: 0 10px 80px 5px #6f6f6f;
     transform: translateY(-3px);
     transition: all .3s;
@@ -56,14 +55,10 @@
     transform: translateY(3px);
 }
 .falcon--btn:focus {
-    /* // box-shadow: 0 10px 80px -5px #6f6f6f;
-    // transform: translateY(3px); */
     outline: none;
 }
 .falcon--btn:hover {
     fill: var(--color-gray-dark-2);
-    /* // box-shadow: 0 10px 80px 5px #6f6f6f;
-    // transform: translateY(-3px); */
 }
 .falcon--icon {
     width: 15vw;
