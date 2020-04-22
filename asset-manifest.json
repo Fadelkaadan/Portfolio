@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/perosnal-website/static/css/main.1608f05d.chunk.css",
-    "main.js": "/perosnal-website/static/js/main.7f1c93de.chunk.js",
-    "main.js.map": "/perosnal-website/static/js/main.7f1c93de.chunk.js.map",
-    "runtime-main.js": "/perosnal-website/static/js/runtime-main.16d5eb9f.js",
-    "runtime-main.js.map": "/perosnal-website/static/js/runtime-main.16d5eb9f.js.map",
-    "static/js/2.453631f1.chunk.js": "/perosnal-website/static/js/2.453631f1.chunk.js",
-    "static/js/2.453631f1.chunk.js.map": "/perosnal-website/static/js/2.453631f1.chunk.js.map",
-    "index.html": "/perosnal-website/index.html",
-    "precache-manifest.d2a4332b4a363c497935a2e65035ad4a.js": "/perosnal-website/precache-manifest.d2a4332b4a363c497935a2e65035ad4a.js",
-    "service-worker.js": "/perosnal-website/service-worker.js",
-    "static/css/main.1608f05d.chunk.css.map": "/perosnal-website/static/css/main.1608f05d.chunk.css.map",
-    "static/js/2.453631f1.chunk.js.LICENSE.txt": "/perosnal-website/static/js/2.453631f1.chunk.js.LICENSE.txt",
-    "static/media/Main.css": "/perosnal-website/static/media/bg.d4ab463a.jpg",
-    "static/media/Book.css": "/perosnal-website/static/media/book-3.2aa99e05.jpg",
-    "static/media/rocket.673f8550.svg": "/perosnal-website/static/media/rocket.673f8550.svg"
+    "main.css": "/personal-website/static/css/main.986189d8.chunk.css",
+    "main.js": "/personal-website/static/js/main.7f1c93de.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.7f1c93de.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.9fc4fff5.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.9fc4fff5.js.map",
+    "static/js/2.453631f1.chunk.js": "/personal-website/static/js/2.453631f1.chunk.js",
+    "static/js/2.453631f1.chunk.js.map": "/personal-website/static/js/2.453631f1.chunk.js.map",
+    "index.html": "/personal-website/index.html",
+    "precache-manifest.515aa6116eb7448aa276919c43791d62.js": "/personal-website/precache-manifest.515aa6116eb7448aa276919c43791d62.js",
+    "service-worker.js": "/personal-website/service-worker.js",
+    "static/css/main.986189d8.chunk.css.map": "/personal-website/static/css/main.986189d8.chunk.css.map",
+    "static/js/2.453631f1.chunk.js.LICENSE.txt": "/personal-website/static/js/2.453631f1.chunk.js.LICENSE.txt",
+    "static/media/Main.css": "/personal-website/static/media/bg.d4ab463a.jpg",
+    "static/media/Book.css": "/personal-website/static/media/book-3.2aa99e05.jpg",
+    "static/media/rocket.673f8550.svg": "/personal-website/static/media/rocket.673f8550.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.16d5eb9f.js",
+    "static/js/runtime-main.9fc4fff5.js",
     "static/js/2.453631f1.chunk.js",
-    "static/css/main.1608f05d.chunk.css",
+    "static/css/main.986189d8.chunk.css",
     "static/js/main.7f1c93de.chunk.js"
   ]
 }
