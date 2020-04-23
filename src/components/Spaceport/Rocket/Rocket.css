@@ -29,25 +29,19 @@
     }
 }
 
-.falcon--control-panel {
-    
-}
-
 .falcon--btn {
-    width: 30vw;
-    height: 30vw;
-    max-width: 27rem;
-    max-height: 27rem;
+    width: 13rem;
+    height: 13rem;
     border: none;
     border-radius: 50%;
     background-color: var(--color-red);
-    box-shadow: 0 10px 80px 5px #6f6f6f;
+    box-shadow: 0 0 80px 5px #6f6f6f;
     transform: translateY(-3px);
     transition: all .3s;
     cursor: pointer;
 }
 .falcon--btn:active {
-    box-shadow: 0 10px 80px -5px #6f6f6f;
+    box-shadow: 0 0 80px -5px #6f6f6f;
     transform: translateY(3px);
 }
 .falcon--btn:focus {
@@ -57,10 +51,8 @@
     fill: var(--color-gray-dark-2);
 }
 .falcon--icon {
-    width: 15vw;
-    height: 15vw;
-    max-width: 13.5rem;
-    max-height: 13.5rem;
+    width: 8rem;
+    height: auto;
     transition: transform .5s, text-shadow 2s;
 }
 
