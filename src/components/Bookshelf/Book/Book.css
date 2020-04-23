@@ -1,9 +1,16 @@
 .book {
     height: calc(20vw * 1.6);
     width: 20vw;
-    font-size: 1.4rem;
+    min-width: 170px;
+    min-height: 270px;
     perspective: 150rem;
-    -moz-perspective: 150rem;
+}
+.book:not(:last-child) {
+    margin-right: 30px;
+}
+
+.rating {
+    margin-bottom: 1rem;
 }
 
 .book__side {
@@ -13,18 +20,9 @@
     backface-visibility: hidden;
     border-radius: 6px;
     overflow: hidden;
-    /* box-shadow: 0 15px 40px rgba(51, 51, 51, 0.15); */
     box-shadow: 0 15px 35px rgb(83, 83, 83);
     transition: all .8s ease;
     background-position: center;
-}
-
-.book h3 {
-    align-self: center;
-}
-
-.book p {
-    align-self: start;
 }
 
 .book__side--front-1 {
@@ -38,12 +36,17 @@
 }
 
 .book__side--back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+
     position: absolute;
     top: 0;
     transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
-    padding: 1rem 2rem;
+    padding: 0 1rem;
 }
 .book__side--back-1 {
     background: var(--color-book-1);
@@ -63,3 +66,10 @@
     -moz-transform: rotateY(0);
 }
         
+
+
+@media only screen and (max-width: 768px) {
+    .book__side {
+        box-shadow: none;
+    }
+} 

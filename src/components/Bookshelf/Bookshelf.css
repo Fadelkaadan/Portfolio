@@ -1,6 +1,6 @@
 .bookshelf {
     background-color: var(--color-white);
-    grid-column: full-start / full-end;
+    grid-column: center-start / center-end;
 
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
 }
 .heading {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 3vw;
+    /* font-size: 3vw; */
     color: var(--color-gray-dark-3);
     align-self: center;
     margin-bottom: 2.5vw;
@@ -16,5 +16,12 @@
 
 .books {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    
 }
+
+@media only screen and (max-width: 768px) {
+    .books {
+        overflow: scroll;
+    }
+} 

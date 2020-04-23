@@ -1,27 +1,21 @@
 .footer {
     grid-column: full-start / full-end;
     background-color: var(--color-blue);
-    padding: 1.5rem 0;
+    padding: 1rem 0;
 
-    display: grid;
-    grid-template-columns: [full-start] 1fr [center-start] 1fr [center-end] 1fr [full-end];
-    grid-template-rows: max-content;
-}
-
-.footer__links {
-    grid-column: center-start / center-end;
-
-    display: grid;
-    grid-auto-flow: column;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    grid-column-gap: 3rem;
 }
 
 .footer__links a {
     text-decoration: none;
     color: var(--color-white);
-    font-size: 4rem;
+    font-size: 2rem;
+}
+
+.footer__links a:not(:last-child) {
+    margin-right: 3rem;
 }
 
 .footer__links a > * {
@@ -33,12 +27,8 @@
 }
 
 .legal {
-    grid-column: center-start / center-end;
     cursor: none;
-    font-size: 1.5rem;
     transition: all .1s;
-    justify-self: center;
-    align-self: center;
 }
 
 
