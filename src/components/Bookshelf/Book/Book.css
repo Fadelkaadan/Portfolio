@@ -3,6 +3,8 @@
     width: 20vw;
     min-width: 170px;
     min-height: 270px;
+    max-width: 300px;
+    max-height: 450px;
     perspective: 150rem;
 }
 .book:not(:last-child) {
@@ -47,6 +49,7 @@
     transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
     padding: 0 1rem;
+    font-size: 0.8rem;
 }
 .book__side--back-1 {
     background: var(--color-book-1);

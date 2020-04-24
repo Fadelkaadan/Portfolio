@@ -6,8 +6,12 @@ const Main = (props) => {
     return (
         <div className="main">
             <div className="main__content">
-                <h1>Version 2.0</h1>
-                <h2 className="swoosh">Under Construction!</h2>
+                <p>
+                    Hello!
+                    <br/> I am Fadel Kaadan
+                    <br/> Frontend Developer
+                    <br/> Diving into the Backend world
+                </p>
             </div>
         </div>
     )
