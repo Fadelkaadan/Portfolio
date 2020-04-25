@@ -7,6 +7,8 @@ import Footer from '../Footer'
 
 import './style.css'
 
+//test
+
 export default class App extends Component {
     render() {
         return (
