@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5f46379.chunk.css",
-    "main.js": "/static/js/main.c98ae986.chunk.js",
-    "main.js.map": "/static/js/main.c98ae986.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4c02dd69.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4c02dd69.js.map",
-    "static/js/2.453631f1.chunk.js": "/static/js/2.453631f1.chunk.js",
-    "static/js/2.453631f1.chunk.js.map": "/static/js/2.453631f1.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.26915a1b255b088a14c4ba799fa63e4e.js": "/precache-manifest.26915a1b255b088a14c4ba799fa63e4e.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.f5f46379.chunk.css.map": "/static/css/main.f5f46379.chunk.css.map",
-    "static/js/2.453631f1.chunk.js.LICENSE.txt": "/static/js/2.453631f1.chunk.js.LICENSE.txt",
-    "static/media/Main.css": "/static/media/bg.d4ab463a.jpg",
-    "static/media/Book.css": "/static/media/book-3.2aa99e05.jpg",
-    "static/media/rocket.673f8550.svg": "/static/media/rocket.673f8550.svg"
+    "main.css": "/portfolio/static/css/main.09d3ec1e.chunk.css",
+    "main.js": "/portfolio/static/js/main.df47dc0f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.df47dc0f.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.d597d31e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.d597d31e.js.map",
+    "static/js/2.f8e613f4.chunk.js": "/portfolio/static/js/2.f8e613f4.chunk.js",
+    "static/js/2.f8e613f4.chunk.js.map": "/portfolio/static/js/2.f8e613f4.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.58017107f4a372e45dc4d2297c517b1c.js": "/portfolio/precache-manifest.58017107f4a372e45dc4d2297c517b1c.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.09d3ec1e.chunk.css.map": "/portfolio/static/css/main.09d3ec1e.chunk.css.map",
+    "static/js/2.f8e613f4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f8e613f4.chunk.js.LICENSE.txt",
+    "static/media/Main.css": "/portfolio/static/media/bg.d4ab463a.jpg",
+    "static/media/Book.css": "/portfolio/static/media/book-3.2aa99e05.jpg",
+    "static/media/rocket.673f8550.svg": "/portfolio/static/media/rocket.673f8550.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4c02dd69.js",
-    "static/js/2.453631f1.chunk.js",
-    "static/css/main.f5f46379.chunk.css",
-    "static/js/main.c98ae986.chunk.js"
+    "static/js/runtime-main.d597d31e.js",
+    "static/js/2.f8e613f4.chunk.js",
+    "static/css/main.09d3ec1e.chunk.css",
+    "static/js/main.df47dc0f.chunk.js"
   ]
 }
