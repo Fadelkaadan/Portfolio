@@ -1,6 +1,6 @@
 ## Welcome to my personal website
 
-This is where you can learn about my interests and programming skills.
+This is where you can learn about my interests and programming skills.<br />
 The website has multiple sections about different things.
 
 Enjoy :)
