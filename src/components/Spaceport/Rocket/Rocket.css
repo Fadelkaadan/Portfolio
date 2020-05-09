@@ -7,7 +7,7 @@
         filter: drop-shadow( -70px 70px 30px #fff );
     }
     100% {
-        transform: translate(0vw, -300vh) rotate(0);
+        transform: translate(0vw, -300vh);
         filter: drop-shadow( -70px 70px 30px #fff );
     }
 }
@@ -30,8 +30,8 @@
 }
 
 .falcon--btn {
-    width: 13rem;
-    height: 13rem;
+    width: 10rem;
+    height: 10rem;
     border: none;
     border-radius: 50%;
     background-color: var(--color-red);
@@ -51,7 +51,7 @@
     fill: var(--color-gray-dark-2);
 }
 .falcon--icon {
-    width: 8rem;
+    width: 7rem;
     height: auto;
     transition: transform .5s, text-shadow 2s;
 }

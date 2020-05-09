@@ -1,6 +1,5 @@
 .section-falcon {
     grid-column: center-start / center-end;
-    padding: 3vw 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,12 +13,11 @@
    color: var(--color-gray-dark-3);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 615px) {
     .section-falcon {
         justify-content: center;
     }
     .falcon--description {
-        margin-bottom: 2.5vh;
         text-align: center;
      }
-} 
+}

@@ -1,14 +1,12 @@
 .bookshelf {
     background-color: var(--color-white);
     grid-column: center-start / center-end;
-
     display: flex;
     flex-direction: column;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 .heading {
     font-family: 'Roboto Condensed', sans-serif;
-    /* font-size: 3vw; */
     color: var(--color-gray-dark-3);
     align-self: center;
     margin-bottom: 2.5vw;

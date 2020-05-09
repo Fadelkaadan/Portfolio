@@ -1,12 +1,15 @@
 .map {
     grid-column: center-start / center-end !important;
-    height: 500px !important;
+    height: 100% !important;
     position: relative !important;
-    margin: 1rem 0;
     border-radius: 6px;
     overflow: hidden;
     transform: translateZ(0); /* to fix safari's border-radius; overflow; issue */
     box-shadow: 0 0 35px rgb(83, 83, 83);
+}
+
+.map *:last-child {
+    cursor: pointer !important;
 }
 
 .fullscreenControlStyle {

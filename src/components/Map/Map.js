@@ -16,18 +16,17 @@ class Map extends Component {
 		super(props);
 		this.state = {
 			viewport: {
-				latitude: 44.0165,
-				longitude: 21.0059,
-				zoom: 3.7,
-				bearing: 0,
-				pitch: 0
+				latitude: 42.7339,
+				longitude: 25.4858,
+				scrollZoom: false,
+				zoom: 3,
+				dragPan: false,
+				touchAction: "pan-y",
+				// bearing: 0,
+				pitch: 10
 			},
 			popupInfo: null
 		}
-	}
-
-	_updateViewport = viewport => {
-		this.setState({viewport})
 	}
 
 	_onClickMarker = city => {
@@ -42,15 +41,27 @@ class Map extends Component {
 				<Popup
 					tipSize={5}
 					anchor="top"
+					offset="10px 10px"
 					longitude={popupInfo.longitude}
 					latitude={popupInfo.latitude}
-					closeOnClick={false}
-					onClose={() => this.setState({popupInfo: null})}
-				>
-				<CityInfo info={popupInfo} />
+					closeOnClick={true}
+					onClose={() => this.setState({popupInfo: null})}>
+					<CityInfo info={popupInfo}/>
 				</Popup>
 			)
 		)
+	}
+
+	componentDidMount() {
+		if (window.innerWidth <= 500) {
+			this.setState({ viewport: {
+				latitude: 44.0165,
+				longitude: 21.0059,
+				zoom: 2.6,
+				bearing: 0,
+				pitch: 0
+			}})
+		}
 	}
 
 	render() {
@@ -64,7 +75,6 @@ class Map extends Component {
 					width="100%"
 					height="100%"
 					mapStyle="mapbox://styles/mapbox/dark-v9"
-					onViewportChange={this._updateViewport}
 					mapboxApiAccessToken={TOKEN}
 				>
 					<Pins data={CITIES} onClick={this._onClickMarker} />
