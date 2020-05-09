@@ -1,0 +1,5 @@
+[
+    {"city":"Aleppo","latitude":36.216667,"longitude":37.166668, "duration": "1995-2014"},
+    {"city":"Mannheim","latitude":49.4875,"longitude":8.4660, "duration": "2014-2018"},
+    {"city":"Stuttgart","latitude":48.7758,"longitude":9.1829, "duration": "Since 2018"}
+]

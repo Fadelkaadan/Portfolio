@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import Main from '../Main'
 import Spaceport from '../Spaceport'
-import MyMap from '../MyMap'
+import Map from '../Map'
 import Bookshelf from '../Bookshelf'
 import Footer from '../Footer'
 
@@ -16,7 +16,7 @@ export default class App extends Component {
             <div className="container">
                 <Main/>
                 <Spaceport/>
-                <MyMap/>
+                <Map/>
                 <Bookshelf/>
                 <Footer/>
             </div>

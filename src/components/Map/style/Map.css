@@ -1,0 +1,30 @@
+.map {
+    grid-column: center-start / center-end !important;
+    height: 500px !important;
+    position: relative !important;
+}
+
+.fullscreenControlStyle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.navStyle {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    padding: 10px;
+}
+
+.scaleControlStyle {
+    position: absolute;
+    bottom: 36px;
+    left: 0;
+    padding: 10px;
+}
+
+.mapbox-improve-map {
+    display: none !important;
+}

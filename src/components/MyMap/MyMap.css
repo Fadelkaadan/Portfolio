@@ -1,8 +1,0 @@
-#deckgl-wrapper {
-    grid-column: full-start / full-end !important;
-    height: 500px !important;
-    position: relative !important;
-    left: unset;
-    top: unset;
-    cursor: default !important;
-}

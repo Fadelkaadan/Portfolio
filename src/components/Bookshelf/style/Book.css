@@ -28,13 +28,13 @@
 }
 
 .book__side--front-1 {
-    background-image: url(./images/book-1.jpg);
+    background-image: url(../assets/images/book-1.jpg);
 }
 .book__side--front-2 {
-    background-image: url(./images/book-2.jpg);
+    background-image: url(../assets/images/book-2.jpg);
 }
 .book__side--front-3 {
-    background-image: url(./images/book-3.jpg);
+    background-image: url(../assets/images/book-3.jpg);
 }
 
 .book__side--back {

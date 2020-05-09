@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './Book.css'
+import './style/Book.css'
 
 const Book = (props) => {
     const { bookClassName, cover, backcover } = props
