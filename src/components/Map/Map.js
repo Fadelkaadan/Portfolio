@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Component } from 'react'
-import MapGL, { Popup, NavigationControl, FullscreenControl, ScaleControl } from 'react-map-gl'
+import MapGL, { Popup } from 'react-map-gl'
 
 import Pins from './Pins'
 import CityInfo from './CityInfo'
@@ -18,7 +18,7 @@ class Map extends Component {
 			viewport: {
 				latitude: 44.0165,
 				longitude: 21.0059,
-				zoom: 3,
+				zoom: 3.7,
 				bearing: 0,
 				pitch: 0
 			},
@@ -58,6 +58,7 @@ class Map extends Component {
 
 		return (
 			<div className="map">
+			<div className="overlay"></div>
 				<MapGL
 					{...viewport}
 					width="100%"
@@ -69,16 +70,6 @@ class Map extends Component {
 					<Pins data={CITIES} onClick={this._onClickMarker} />
 
 					{this._renderPopup()}
-
-					<div className="fullscreenControlStyle">
-					<FullscreenControl />
-					</div>
-					<div className="navStyle">
-					<NavigationControl />
-					</div>
-					<div className="scaleControlStyle">
-					<ScaleControl />
-					</div>
 				</MapGL>
 			</div>
 		)

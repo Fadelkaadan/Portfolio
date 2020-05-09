@@ -17,10 +17,11 @@ const Pins = (props) => {
                 viewBox="0 0 24 24"
                 style={{
                     cursor: 'pointer',
-                    fill: '#d00',
+                    fill: '#fb3838',
                     stroke: 'none',
                     transform: `translate(${-SIZE / 2}px,${-SIZE}px)`}}
-                onClick={() => onClick(city)}>
+                onClick={() => onClick(city)}
+            >
                 <path d={ICON} />
             </svg>
         </Marker>
